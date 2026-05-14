@@ -33,8 +33,8 @@ Modules :
 
 ## Block Diagram
 
-![Block Diagram](assets/RippleCarryAdder.png)
+![Block Diagram](assets/Ripple Carry Adder.png)
 
 ## Waveform Output
 
-![Waveform](assets/waveform.png)
+![Waveform](assets/waveform.jpg)

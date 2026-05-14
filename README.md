@@ -30,3 +30,11 @@ Modules :
 - half_adder.v — fundamental 1-bit adder, no carry input
 - full_adder.v — instantiates two half adders + OR gate
 - rca_4bit.v — instantiates four full adders, wires carries
+
+## Block Diagram
+
+![Block Diagram](assets/RippleCarryAdder.png)
+
+## Waveform Output
+
+![Waveform](assets/waveform.png)

@@ -38,3 +38,22 @@ Modules :
 ## Waveform Output
 
 ![Waveform](assets/waveform.jpg)
+
+Important learnings :
+
+1) The two half adders that make up a single full adder both function identically
+
+2) When Carry 1 = 1 then Sum1 = 0 (Always true) since;
+   Carry = A AND B (Where Carry = 1; This implies that A=B=1)
+   Sum1= A XOR B (Since A=B Sum1 will awlays be 0)
+   
+3) Both Carry 1 and Carry 2 cannot be equal to 1 since;
+        When Carry 1 = 1 then Sum1=0 and Carry 2 = Sum1 AND Cin 
+        Now that Sum1=0; Carry 2 can never have the value of 1 as both Sum1 and Cin need
+        to be equal to 1 for Carry 2 = 1
+   However Carry 1 = 0 and Carry 2 = 0 is possilbe since;
+   When Carry 1 = 0 then Sum1 = 1/0 
+        Carry 2 = 0 is possible when Sum1 = 1/0 and Cin = 0/1
+
+4) Each full adder must wait
+  for the carry from the previous stage before computing its output

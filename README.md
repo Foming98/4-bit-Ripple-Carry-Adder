@@ -33,7 +33,7 @@ Modules :
 
 ## Block Diagram
 
-![Block Diagram](assets/Ripple Carry Adder.png)
+![Block Diagram](assets/RCA.png)
 
 ## Waveform Output
 

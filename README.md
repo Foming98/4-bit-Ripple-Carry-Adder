@@ -35,6 +35,10 @@ Modules :
 
 ![Block Diagram](assets/RCA.png)
 
+## Full Adder
+
+![Full Adder](addets/FA.png)
+
 ## Waveform Output
 
 ![Waveform](assets/waveform.jpg)

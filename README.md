@@ -37,7 +37,7 @@ Modules :
 
 ## Full Adder
 
-![Full Adder](addets/FA.png)
+![Full Adder](assets/FA.png)
 
 ## Waveform Output
 
